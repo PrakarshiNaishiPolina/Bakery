@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: bisque;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.content{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:60%;
+    margin:2rem auto;
+    background-color:#5E3023;
+    color:beige;
+    padding:20px;
+    border-radius: 4rem;
+   position:sticky;
+   top:1rem;/* to sticky it to thr top */
+   /* z-index:100; */
+}
+.options>a{
+    text-decoration: none;
+    color:#DAB49D;
+    /* transition: transform; */
+}
+.options>a:hover{
+    transform:scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.options {
+    display:flex;
+    justify-content: space-between;
+    gap:1rem;
+}
+.content-1{
+    display:flex;
+    gap:2rem;
+    justify-content:space-around;
+    align-items: center;
+}
+.content-1>img{
+    width:500px;
+    height:490px;
+    border-radius: 4rem;
+
+}
+.text>p:nth-child(2){
+    font-size: small;
+    font-style: italic;
+}
+
+.content-2{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    background-image:url('bakery\ menu.jpeg');
+    width:100%;
+    /* height:500vh; no need of height*/
+    background-size:100% 100%;
+    background-repeat:no-repeat; 
+
+}
+.content-2>h2{
+    text-align:center;
+    color:#9A7B4F ;
+    margin-top:2rem;
+    background-color:#410200;
+    padding:20px;
+    border-radius:4rem;
+}
+.menu{
+    display:grid;
+   grid-template-columns:repeat(3,1fr);
+   gap:5rem;
+   margin-top:2rem;
+   margin-bottom:2rem;
+ }
+.menu ul {
+    list-style: none;
+}
+.menu ul li{
+  text-align:center;
+}
+.breads,.pastries,.cakes,.cupcakes,.cookies,.specialties,.beverages,.breakfast,.seasonal,.gluten-free,.vegan,.savory-snacks{
+    color:#7F5112;
+    /* z-index:100; */
+display:flex;
+flex-direction:column;
+gap:1rem;
+line-height:1.5;
+border:2px solid pink;
+padding:35px;
+border-top-left-radius:50%;
+border-top-right-radius:50%;
+background-color:#D3B683;
+/* transition:transform; */
+}
+.breads>h2,.pastries>h2,.cakes>h2,.cupcakes>h2,.cookies>h2,.specialties>h2,.beverages>h2,.breakfast>h2,.seasonal>h2,.gluten-free>h2,.vegan>h2,.savory-snacks>h2{
+    color:#4D2D18;
+     text-align:center;
+}
+
+.breads li:hover,.pastries li:hover,.cakes li:hover,.cupcakes li:hover,.cookies li:hover,.specialties li:hover,.beverages li:hover,.breakfast li:hover,.seasonal li:hover,.gluten-free li:hover,.vegan li:hover,.savory-snacks li:hover{
+    /* transform:scale(1.1); */
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    /* border: 2px solid lightgray; */
+    /* background-color: pink; */
+    cursor:pointer;
+  padding:0px!important;
+
+}
+
+
+ 
