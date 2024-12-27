@@ -46,12 +46,5 @@ Welcome to **Blakehouse Bliss**, a delightful bakery offering a wide range of fr
 2. Open the `index.html` file in a web browser to view the website.
 3. Modify the content or add new items to the menu as needed.
 
-## Future Improvements
-
-- Adding an interactive order form.
-- Integration with a backend for dynamic menu updates.
-- Implementing a responsive mobile-friendly version of the website.
-- Adding animations for a more engaging user experience.
-
 
 Enjoy browsing Blakehouse Bliss! 🍰🧁
